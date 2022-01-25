@@ -1,0 +1,38 @@
+.strona {
+    width: 20px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px;
+    border: 1px solid #ccc
+}
+
+.page_table,
+th,
+td {
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+table {
+    margin: 100px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.stronnicowanie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+th,
+td {
+    min-width: 100px;
+}
+
+.button_align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
